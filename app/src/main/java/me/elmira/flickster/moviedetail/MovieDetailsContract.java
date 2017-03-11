@@ -15,16 +15,10 @@ public interface MovieDetailsContract {
         void showMovieDetails(Movie movie);
 
         void showMovieDetailsNotLoaded();
-
-        //void displayMovieVideoPreview(MovieVideo video);
-
-        //void movieVideoNotLoaded();
     }
 
     interface Presenter extends BasePresenter {
 
         void getMovieDetails(long id);
-
-        //void loadMovieVideo(long id);
     }
 }

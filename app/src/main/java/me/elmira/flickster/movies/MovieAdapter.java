@@ -43,7 +43,6 @@ public class MovieAdapter extends BaseAdapter implements ListView.OnItemClickLis
         orientationPortrait = context.getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT;
 
         DisplayMetrics displayMetrics = context.getResources().getDisplayMetrics();
-        //float widthFactor = orientationPortrait ? 0.5f : 0.65f;
         imageViewWidthPx = displayMetrics.widthPixels;
     }
 

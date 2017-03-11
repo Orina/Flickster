@@ -37,19 +37,4 @@ public class MovieDetailsPresenter implements MovieDetailsContract.Presenter {
             }
         });
     }
-
-    /*@Override
-    public void loadMovieVideo(long id) {
-        mMovieDataSource.getMovieVideo(id, new MovieDataSource.GetMovieVideoCallback() {
-            @Override
-            public void onMovieVideoLoaded(MovieVideo movieVideo) {
-                mView.displayMovieVideoPreview(movieVideo);
-            }
-
-            @Override
-            public void onMovieVideoNotLoaded() {
-                mView.movieVideoNotLoaded();
-            }
-        });
-    }*/
 }

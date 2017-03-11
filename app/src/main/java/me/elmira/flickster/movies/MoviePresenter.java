@@ -29,7 +29,6 @@ public class MoviePresenter implements MovieContract.Presenter {
 
     @Override
     public void loadMovies(boolean forceUpdate) {
-        mView.showLoading(true);
 
         if (forceUpdate || mFirstLoad) {
             mMovieDataSource.refreshMovies();
@@ -38,7 +37,6 @@ public class MoviePresenter implements MovieContract.Presenter {
         mMovieDataSource.loadMovies(new MovieDataSource.LoadMoviesCallback() {
             @Override
             public void onMoviesLoaded(List<Movie> movies) {
-                mView.showLoading(false);
                 mView.showMovies(movies);
             }
 

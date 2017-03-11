@@ -18,8 +18,6 @@ public interface MovieContract {
 
         void showNoMovies();
 
-        void showLoading(boolean active);
-
         void showMovieDetails(long id);
 
         void playMovieVideo(long id);

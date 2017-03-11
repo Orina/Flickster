@@ -54,7 +54,6 @@ public class PopularMovieViewHolder extends BaseMovieViewHolder {
             picasso.setIndicatorsEnabled(false);
             picasso.load(imageUri)
                     .noPlaceholder()
-                    //.placeholder(placeholder)
                     .resize(imageViewWidthPx, 0)
                     .transform(new RoundedCornersTransformation(25, 10))
                     .into(imageView)

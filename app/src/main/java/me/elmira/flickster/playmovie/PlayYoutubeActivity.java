@@ -39,7 +39,6 @@ public class PlayYoutubeActivity extends YouTubeBaseActivity implements PlayYout
         super.onCreate(bundle);
 
         mMovieId = getIntent().getLongExtra(MOVIE_ID, 0);
-        Log.d(LOG_TAG, "start display movie for id: "+mMovieId);
         if (mMovieId == 0) {
             finish();
             return;
@@ -109,8 +108,6 @@ public class PlayYoutubeActivity extends YouTubeBaseActivity implements PlayYout
 
         @Override
         public void onVideoEnded() {
-            Log.d(LOG_TAG, "onVideoEnded()");
-
             Intent intent = new Intent(getApplicationContext(), MovieDetailsActivity.class);
             intent.putExtra(MovieDetailsActivity.MOVIE_ID_EXTRA, mMovieId);
             intent.setFlags(FLAG_ACTIVITY_SINGLE_TOP);

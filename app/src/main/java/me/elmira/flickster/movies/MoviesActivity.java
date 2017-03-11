@@ -74,11 +74,6 @@ public class MoviesActivity extends AppCompatActivity implements MovieContract.V
     }
 
     @Override
-    public void showLoading(boolean active) {
-
-    }
-
-    @Override
     public void showMovieDetails(long id) {
         Intent intent = new Intent(this, MovieDetailsActivity.class);
         intent.putExtra(MovieDetailsActivity.MOVIE_ID_EXTRA, id);
