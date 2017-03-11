@@ -33,6 +33,7 @@ The following **additional** features are implemented:
 
 * [X] Implemented MVP pattern
 * [X] Implemented Json objects parsing in background thread using HandlerThread
+* [X] Implemented movies repository - app stores already loaded movies into memory cache.
 * [X] After the movie video has ended, the app will show the movie's details page. I.e. YoutubeListener interface is implemented and method onVideoEnded() is overriden.
 
 ## Video Walkthrough
