@@ -33,7 +33,6 @@ The following **additional** features are implemented:
 
 * [X] Implemented MVP pattern
 * [X] After the movie video has ended, the app will show the movie's details page. I.e. YoutubeListener interface is implemented and method onVideoEnded() is overriden.
-* [ ] List anything else that you can get done to improve the app functionality!
 
 ## Video Walkthrough
 
