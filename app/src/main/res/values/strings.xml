@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Flickster</string>
+    <string name="release_date">Release date</string>
+    <string name="genre">Genre</string>
+    <string name="running_time">Running time</string>
+
+</resources>
